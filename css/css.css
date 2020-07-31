@@ -1,0 +1,55 @@
+*{
+margin:0;
+padding:0;
+    
+}
+.CajaPadre{
+    
+    font-size: 10px;
+    
+    width:56em;
+    height:72em;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    
+    
+    margin: auto;
+    margin-top: 18em;
+    transition: 1s;
+}
+.CajaPadre:hover{
+    transform: translateX(-60px);
+    transition: 1s;
+
+}
+.cajaAzul{
+    width:50em;
+    height: 60em;
+    background-color: #00A9AA;
+    position: absolute;
+    top: 8em;
+    left:0em;  
+}
+.cajaImg img{
+    width: 50em;
+    position: absolute;
+    top: 4em;
+    left: 5em;
+}
+.cajaTexto{
+    width:50em;
+    height: 8em;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 56em;
+    left: 3em;
+   
+}
+.cajaTexto p{
+    color: #FFFFFF;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 0.1em;
+    font-family: 'Oswald', sans-serif;
+}
